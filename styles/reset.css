@@ -1,0 +1,62 @@
+/* Reset CSS */
+
+/* Box-sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Set core font size */
+html {
+  font-size: 16px;
+}
+
+/* Set core body font family */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Set core anchor decoration */
+a {
+  text-decoration: none;
+}
+
+/* Remove outline from elements */
+button,
+input,
+textarea,
+select {
+  outline: none;
+}
+
+/* Set default cursor */
+body {
+  cursor: default;
+}

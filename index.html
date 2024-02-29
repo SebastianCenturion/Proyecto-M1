@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo 1 - Presentación</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+    
+    <section>
+        <h1>Sebastián Centurión</h1>
+        <p>Buenas, soy de Argentina, un gusto empezar este camino con ustedes.</p>
+    </section>
+    <section>
+        <h2>Mis Tecnologías Favoritas</h2>
+        <aside class="container">
+            <div class="card">
+                <img src="assets/img/html.jpg">
+                <h3>HTML</h3>
+            </div>
+            <div class="card">
+                <img src="assets/img/css.jpg">
+                <h3>CSS</h3>
+            </div>
+            <div class="card">
+                <img src="assets/img/java script.jpg">
+                <h3>JAVASCRIPT</h3>
+            </div>
+        </aside>
+    </section>
+    <section>
+        <h2>Mis Actividades Favoritas</h2>
+        <form action="añadir">
+            <input type="text" id="inputTitle" name="title" placeholder="Nombre de la Actividad" />
+            <input type="text" id="inputDescription" name="description" placeholder="Descripcion de la Actividad" />
+            <input type="url" id="inputUrl" placeholder="URL de la imagen" />
+            <div>
+                <input type="button" id="inputButton" value="Agregar Actividad" />
+            </div>
+        </form>
+    </section>
+    <div id="newActivities">
+        
+    </div>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados SC ©</p>
+    </footer>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(146, 210, 202);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Segoe IU", sans-serif;
+    line-height: 2em;
+  }
+  section {
+    border: 1px solid #fff4;
+    background-color: rgb(205, 254, 250);
+    margin: 2em;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75)
+  }
+  img {
+    max-width: 100%;
+  }
+  .container {
+    display: flex;
+    max-width: 45rem;
+    margin: auto;
+    gap: 5em;
+
+  }
+  .card {
+    border: 5px solid rgb(146, 210, 202);
+    padding: 1em;
+    border-radius: 0.2em;
+    background-color: #fff;
+    transition: 0.3s;
+  }
+
+  .card:hover {
+    transform: scale(1.025);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 40rem;
+    margin: auto;
+  }
+  input {
+    padding: 1em;
+  }
+
+  footer {
+    font-size: small;
+  }
+ 
+  #newActivities {
+    border: 1px solid #fff4;
+    background-color: rgb(205, 254, 250);
+    margin: 2em;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+
+  .activity {
+    background-color: white;
+    justify-content: space-evenly;
+    width: auto;
+    align-items: center;
+    border: 5px solid rgb(146, 210, 202);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 0.2em;
+    margin: 2em;
+    padding: 1em;
+    max-width: 20em;
+  }
